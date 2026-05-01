@@ -1,0 +1,180 @@
+body {
+	background:#000;
+	color:#def9ff;
+	font-size: 16px;
+	width: 100%;
+}
+.footer img {
+    background: #131F29;
+    padding-left: 44%;
+    padding-right: 44%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+section {
+	margin-top: 20px;
+}
+#page-content {
+	min-height: 650px;
+}
+div.background {
+    position: absolute;
+    background-image: url("https://overboundstudio.com/images/ufo-bg.png");
+    width: 100%;
+    height: 64px;
+    z-index: -99;
+    top: 170px;
+    left: 0px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+a {
+	color: #55c8e5;
+}
+a:focus, a:hover {
+	color: #F1C640;
+}
+.inline {
+	display: inline;
+}
+.video iframe {
+	margin: 30px 15%;
+}
+.download-button {
+	width: 340px;
+	font-weight: 700;
+	font-size: 1em;
+	background-color: #df6060;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.download-button:hover, .download-button:active {
+	background-color: #ff9696;
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #55c8e5;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+	color: #F1C640;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #55c8e5;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+	color: #F1C640;
+}
+.navbar-default {
+	background-color: transparent;
+	border: 0px transparent;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border: 0px #000;
+}
+.center-iframe {
+    margin: 0 18%;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #148487;
+    border: 1px solid #106c6e;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+/* Archive Page */
+article {
+	padding: 15px 0;
+}
+img.feature-image {
+	display: inline;
+	max-width: 20%;
+	float: left;
+}
+div.game-info-archive, div.post-info-archive, div.video-info-archive {
+	padding-left: 15px;
+	display: inline;
+	width: 80%;
+	float: right;
+}
+a.game-link, a.post-link, a.video-link {
+	background-color: #55c8e5;
+	color: #000;
+	font-size: 28px;
+	display: block;
+	padding-left: 15px;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+a.game-link:hover, a.post-link:hover, a.video-link:hover,
+a.game-link:active, a.post-link:active, a.video-link:active {
+	background-color: #ccf5ff;
+	text-decoration: none;
+}
+p.summary {
+	padding: 15px 0;
+}
+
+/* Game/Blog Page */
+.game-page li {
+	font-size: 14px;
+}
+.game-header, .post-header {
+	margin-bottom: 15px;
+}
+.game-title {
+	background-color: #55c8e5;
+	color: #000;
+	font-size: 30px;
+	display: block;
+	padding-left: 15px;
+}
+.game-info, .post-info {
+	font-size: 20px;
+}
+span.release-label {
+	padding-right: 7px;
+}
+div.release, div.post-date {
+	display: inline-block;
+}
+div.platform {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+}
+.game-info span {
+	padding-right: 7px;
+}
+
+/* Home Page */
+.welcome-panel {
+    font-size: 200%;
+    text-align: center;
+	margin-top: 30px;
+}
+.welcome-panel a {
+	color: #F1C640;
+	font-weight: 700;
+}
